@@ -655,7 +655,7 @@ stream.forEach(System.out::println);
 ### count()
 
 ```java
- // long count() 统计数据流里面的数据个数
+ // long count() 统计数据流里面的数据个数等
 long count = stream.count();
 ```
 
