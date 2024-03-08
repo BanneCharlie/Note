@@ -58,5 +58,95 @@
 
 # 2024-3-07
 
-- Spring  P61
-- ![image-20240307184228309](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240307184228309.png)
+- Spring  P53
+
+  - Gof23种设计模式    工厂方法设计模式(简单工厂设计模式)   
+
+    - 简单工厂设计模式  生产和消费进行分离  违背了OCP原则
+      - 抽象产品  Weapon
+      - 具体产品  Gun Tank
+      - 工厂类角色 WeaponFactory 统一实现具体产品的创建
+    - 工厂方法设计模式  实现工厂和角色的一一对应 体现了OCP原则
+      - 抽象的产品 Weapon 
+      - 具体的产品  Gun  Tank
+      - 抽象的工厂 WeaponFactory
+      - 具体的工厂 GunFactory  TankFactory
+    - 抽象工厂设计模式图
+
+    ![image-20240307210739107](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240307210739107.png) 
+
+  - Bean的实例化方式
+
+    - 构造器方法实例化
+    - 简单工厂模式实例化 
+
+    ```xml
+    <!-- 调用工厂Bean的静态方法 创建Bean对象 -->
+    <bean id="vipBean" class="com.powernode.spring6.bean.VipFactory" factory-method="get"/>
+    ```
+
+    - Factory-Bean实例化
+
+    ```xml
+    <bean id="orderFactory" class="com.powernode.spring6.bean.OrderFactory"/>
+    <!-- 调用工厂Bean的方法 get方法 创建Bean对象 -->
+    <bean id="orderBean" factory-bean="orderFactory" factory-method="get"/>
+    ```
+
+    - Factory-Bean接口实例化        SimpleDateFormat 格式化日期类
+
+    ```xml
+    <!-- 工厂Bean实现FactoryBean接口 重写其中方法 自动调用进行创建Bean对象 -->
+    <bean id="personBean" class="com.powernode.spring6.bean.OrderFactory"/>
+    ```
+
+    - BeanFactory(创建Bean对象) 和  FactoryBean(辅助Spring创建其他Bean对象) 的区别
+
+  - Bean的声明周期
+
+    - 五步 --> 实例化Bean  Bean属性赋值  初始化Bean(自定义InitBean函数)  使用Bean  销毁Bean(自定义destoryBean函数)
+
+    ```xml
+        <!-- init-method属性指定初始化方法  destroy-method属性指定销毁方法。-->
+        <bean id="userBean" class="com.powernode.spring6.bean.User" init-method="initBean" destroy-method="destroyBean">
+            <property name="name" value="zhangsan"/>
+        </bean>
+    ```
+
+    - 七步    实现BeanPostProcessor类，并且重写before和after方法
+
+    ![image-20240307213231623](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240307213231623.png) 
+
+    - 十步   Aware相关接口为BeanNameAware, BeanClassLoaderAware, BeanFactoryAware
+
+    ![image-20240307213323462](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240307213323462.png) 
+
+    - singleton作用域的Bean是完整的   prototype作用域Bean没有销毁前和销毁流程
+
+  - ```java
+        public void testBeanRegister(){
+            // 自己new的对象
+            User user = new User();
+            System.out.println(user);
+    
+            // 创建 默认可列表BeanFactory 对象
+            DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+            // 注册Bean
+            factory.registerSingleton("userBean", user);
+            // 从spring容器中获取bean
+            User userBean = factory.getBean("userBean", User.class);
+            System.out.println(userBean);
+        }
+    ```
+
+# 2024-3-08
+
+- Spring  P80
+  - 循环依赖   A对象中有B的属性,B对象中有A的属性
+    - singleton + setter 模式下循环依赖没有任何问题   实例化对象(立刻曝光)和对象的属性赋值分别为两个阶段
+      - 一级缓存(实例化Bean并赋值)  二级缓存(实例化Bean)  三级缓存(工厂Bean)
+    - prototype + setter 模式循环依赖存在问题
+    - singleton + 构造器模式存在循环依赖问题    实例化对象的过程和对象属性赋值的过程没有分离开，必须在一起完成导致的
+    - Spring通过 singleton + setter模式解决循环依赖的原因
+  - P62 - P69  手写Spring的IOC容器的Setter注入框架
+  - ![image-20240308105538432](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240308105538432.png)
