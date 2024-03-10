@@ -148,5 +148,61 @@
     - prototype + setter 模式循环依赖存在问题
     - singleton + 构造器模式存在循环依赖问题    实例化对象的过程和对象属性赋值的过程没有分离开，必须在一起完成导致的
     - Spring通过 singleton + setter模式解决循环依赖的原因
-  - P62 - P69  手写Spring的IOC容器的Setter注入框架
-  - ![image-20240308105538432](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240308105538432.png)
+  - P62 - P69  手写Spring的IOC容器的Setter注入框架    解析XML文件 + 工厂模式 + 反射机制
+  - Spring IOC的注解开发       工厂模式 + 反射机制
+    - 声明Bean的注解  实例化Bean对象
+      - @Component
+      - @Controller
+      - @Service
+      - @Repository
+    - Bean对象属性注入的注解  
+      - @Value  简单类型注入
+      - @Autowired 非简单类型 默认根据类型进行注入  搭配@Qualifier 可以设置为根据名称进行注入
+      - @Resource  非简单类型 默认根据名称进行注入,没有名称根据属性名称注入 最后才会根据类型进行注入 (JDK扩展包提供) 
+      - @Configuration  + @Component  --> 实现纯注解开发
+  - @Resource 和 @Autowired 注解的区别
+- 后端项目通用模板搭建
+
+# 2024-3-09
+
+- Spring  P117
+
+  - Gof23种设计模式  代理模式  结构设计模式
+
+    ![image-20240309135318660](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20240309135318660.png) 
+
+    - 目标对象  代理对象   公共接口
+
+    - 代理模式的应用场景 :
+
+      - 程序中A对象和B对象无法直接交互
+      - 程序中进行功能的增加
+      - 对目标对象的保护,代码复用的提升
+
+    - 代理模式区分 :
+
+      - 静态代理模式  --> OrderServie(公共接口)  OrderServiceImpProxy(代理对象)  OrderServiceImp(目标对象)
+
+      - 动态代理模式 --> 减少代理类的使用,解决代码复用问题  
+
+        - JDK动态代理机制只能代理接口   
+
+          Proxy.newProxyInstance(classLoader,类接口,调用处理器)  
+
+          调用处理器实现InvocationHandler接口重写invoke(代理对象,目标方法,目标参数)
+
+        - CGLIB可代理接口和类,底层通过继承方法实现(底层具有小而快的字节码处理器框架ASM)
+
+  - 面向切面编程 AOP  业务逻辑无关的代码称为切面
+
+    - 切面通常指的是业务系统服务中,与业务逻辑无关的服务比如 日志记录 事务管理 安全等,也称为交叉业务; 交叉业务几乎是通用的
+    - AOP 面向切面编程将与核心业务无关的代码独立抽取出来,形成独立的组件,然后横向交叉的方式应用的业务流程中的过程为AOP
+    - 连接点  切入点  通知 切面(切入点 + 通知) 织入  Proxy  Target
+    - @Aspect 切面类注解  @AroundAdvice("execution(访问修饰符 返回类型 全类名 方法名(参数))") 
+
+- Hutool工具类 https://doc.hutool.cn/pages/index/#%F0%9F%93%9A%E7%AE%80%E4%BB%8B   Commons工具类  Redis Session分布式登录的原理
+
+- 后端项目通用模板搭建  
+
+# 2024-3-10
+
