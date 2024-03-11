@@ -200,9 +200,11 @@
     - 连接点  切入点  通知 切面(切入点 + 通知) 织入  Proxy  Target
     - @Aspect 切面类注解  @AroundAdvice("execution(访问修饰符 返回类型 全类名 方法名(参数))") 
 
-- Hutool工具类 https://doc.hutool.cn/pages/index/#%F0%9F%93%9A%E7%AE%80%E4%BB%8B   Commons工具类  Redis Session分布式登录的原理
+- Hutool工具类   Commons工具类  Redis Session分布式登录的原理
 
 - 后端项目通用模板搭建  
 
 # 2024-3-10
 
+- 后端通用模版完成 80%
+- 了解HuTool工具包  https://doc.hutool.cn/pages/index/#%F0%9F%93%9A%E7%AE%80%E4%BB%8B 
