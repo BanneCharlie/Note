@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9.Redis/2.Persistence.md",
+                "file": "9.Redis/3.Cluster.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9.Redis/2.Persistence.md",
+                "file": "9.Redis/3.Cluster.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9.Redis/2.Persistence.md",
+                "file": "9.Redis/3.Cluster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9.Redis/2.Persistence.md"
+                "file": "9.Redis/3.Cluster.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "4028a5efbf82a577",
   "lastOpenFiles": [
-    "9.Redis/1.Info.md",
     "9.Redis/2.Persistence.md",
+    "9.Redis/3.Cluster.md",
+    "9.Redis/1.Info.md",
     "1.Java/4.Gather.md",
     "5.Spring/2.IOC.md",
     "5.Spring/1.Info.md",
@@ -176,7 +177,6 @@
     "1.Java/8.Internet.md",
     "1.Java/7.IO流.md",
     "1.Java/6.Thread.md",
-    "1.Java/5.Generic.md",
     "14.JUC/Pasted image 20240303121554.png",
     "14.JUC"
   ]
