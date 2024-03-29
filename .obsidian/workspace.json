@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "39b9bf89e56ee803",
+        "id": "104a9e21897987dc",
         "type": "tabs",
         "children": [
           {
-            "id": "4028a5efbf82a577",
+            "id": "16e4542adff3f716",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15.Tool/JWT.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
