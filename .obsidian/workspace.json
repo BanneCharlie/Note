@@ -148,6 +148,8 @@
   },
   "active": "16e4542adff3f716",
   "lastOpenFiles": [
+    "NotePush.bat",
+    "NotePush.md",
     "17.DesignPattern/4.BehaviorPattern.md",
     "15.Tool/CommonTool.md",
     "13.Vue3/3.Pinia.md",
@@ -172,9 +174,6 @@
     "4.SpringMVC/2.SpringMVC.md",
     "4.SpringMVC/1.Info.md",
     "Today.md",
-    "15.Tool/JWT.md",
-    "14.JUC/2.Monitor.md",
-    "NotePush.bat",
     "15.Tool",
     "新建文件夹",
     "14.JUC/Pasted image 20240303121554.png",
