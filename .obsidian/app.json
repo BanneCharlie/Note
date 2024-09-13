@@ -1,4 +1,5 @@
 {
   "focusNewTab": true,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "attachmentFolderPath": "/"
 }

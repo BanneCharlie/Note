@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.Git/Git.md",
+                "file": "18.AI/Dify.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2101777a9b4285b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18.AI/Xinference.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11.Git/Git.md",
+                "file": "18.AI/Xinference.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11.Git/Git.md",
+                "file": "18.AI/Xinference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11.Git/Git.md"
+                "file": "18.AI/Xinference.md"
               }
             }
           }
@@ -146,8 +159,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "16e4542adff3f716",
+  "active": "e2101777a9b4285b",
   "lastOpenFiles": [
+    "18.AI/Dify.md",
+    "18.AI/Xinference.md",
+    "18.AI/Conda Command.md",
+    "Work.md",
+    "17.DesignPattern/1.Info.md",
+    "Today.md",
+    "16.Interview/Plan of final battle.md",
+    "16.Interview/Interview.md",
+    "16.Interview/Basic.md",
+    "11.Git/Git.md",
     "NotePush.bat",
     "NotePush.md",
     "17.DesignPattern/4.BehaviorPattern.md",
@@ -165,15 +188,6 @@
     "10.Microservices/4.Sentinel/Sentinel.md",
     "10.Microservices/3.Gateway/GateWay.md",
     "9.Redis/3.Cluster.md",
-    "9.Redis/2.Persistence.md",
-    "9.Redis/1.Info.md",
-    "1.Java/4.Gather.md",
-    "5.Spring/2.IOC.md",
-    "5.Spring/1.Info.md",
-    "6.Mybatis/MyBatis.md",
-    "4.SpringMVC/2.SpringMVC.md",
-    "4.SpringMVC/1.Info.md",
-    "Today.md",
     "15.Tool",
     "新建文件夹",
     "14.JUC/Pasted image 20240303121554.png",
