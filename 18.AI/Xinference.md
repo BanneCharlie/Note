@@ -10,4 +10,14 @@ XINFERENCE_MODEL_SRC=modelscope xinference-local --host 0.0.0.0 --port 9997
 注意：因为我们的Dify是部署到了Docker中，而Xinference服务是在宿主机上，所以Dify是无法直接访问宿主机上的localhost的，需要通过：http://host.docker.internal:9997 访问
 
 
+# Ollama
+```shell
+# docker部署 Ollama, 自定义挂载卷位置
+docker run -d --gpus=all -p 11434:11434  --name ollama ollama/ollama
+
+# 查看显卡内存
+nvidia-smi
+```
+
+鼠标速度 17
 
