@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18.AI/Xinference.md",
+                "file": "Work.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 274.5
   },
   "right": {
     "id": "c5f1792ca5425ef9",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "18.AI/Xinference.md",
+                "file": "Work.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "18.AI/Xinference.md",
+                "file": "Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18.AI/Xinference.md"
+                "file": "Work.md"
               }
             }
           }
@@ -147,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 334.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,12 +162,15 @@
   },
   "active": "e2101777a9b4285b",
   "lastOpenFiles": [
-    "18.AI/Dify.md",
+    "Today.md",
+    "9.Redis/2.Persistence.md",
+    "9.Redis/1.Info.md",
+    "9.Redis/3.Cluster.md",
     "18.AI/Xinference.md",
+    "18.AI/Dify.md",
     "18.AI/Conda Command.md",
     "Work.md",
     "17.DesignPattern/1.Info.md",
-    "Today.md",
     "16.Interview/Plan of final battle.md",
     "16.Interview/Interview.md",
     "16.Interview/Basic.md",
@@ -185,9 +189,6 @@
     "10.Microservices/0.Docker/Docker.md",
     "5.Spring/3.AOP.md",
     "0.FrontEnd/Html_Css.md",
-    "10.Microservices/4.Sentinel/Sentinel.md",
-    "10.Microservices/3.Gateway/GateWay.md",
-    "9.Redis/3.Cluster.md",
     "15.Tool",
     "新建文件夹",
     "14.JUC/Pasted image 20240303121554.png",
