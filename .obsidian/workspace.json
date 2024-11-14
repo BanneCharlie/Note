@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18.AI/Dify.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2101777a9b4285b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work.md",
+                "file": "14.JUC/6.AQS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work.md",
+                "file": "14.JUC/6.AQS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work.md",
+                "file": "14.JUC/6.AQS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work.md"
+                "file": "14.JUC/6.AQS.md"
               }
             }
           }
@@ -147,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,21 +147,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e2101777a9b4285b",
+  "active": "16e4542adff3f716",
   "lastOpenFiles": [
+    "1.Java/10.JDBC.md",
+    "18.AI/Dify.md",
+    "11.Git/Git.md",
+    "4.SpringMVC/3.SSM.md",
+    "4.SpringMVC/2.SpringMVC.md",
+    "4.SpringMVC/1.Info.md",
+    "5.Spring/5.Resource.md",
+    "Work.md",
     "Today.md",
     "9.Redis/2.Persistence.md",
     "9.Redis/1.Info.md",
     "9.Redis/3.Cluster.md",
     "18.AI/Xinference.md",
-    "18.AI/Dify.md",
     "18.AI/Conda Command.md",
-    "Work.md",
     "17.DesignPattern/1.Info.md",
     "16.Interview/Plan of final battle.md",
     "16.Interview/Interview.md",
     "16.Interview/Basic.md",
-    "11.Git/Git.md",
     "NotePush.bat",
     "NotePush.md",
     "17.DesignPattern/4.BehaviorPattern.md",
@@ -184,11 +176,6 @@
     "13.Vue3/1.Grammar.md",
     "10.Microservices/6.ElasticSearch/ElasticSearch.md",
     "10.Microservices/1.Nacos/Nacos.md",
-    "10.Microservices/2.OpenFegin/OpenFeign.md",
-    "10.Microservices/5.RabbitMQ/RabbitMQ.md",
-    "10.Microservices/0.Docker/Docker.md",
-    "5.Spring/3.AOP.md",
-    "0.FrontEnd/Html_Css.md",
     "15.Tool",
     "新建文件夹",
     "14.JUC/Pasted image 20240303121554.png",
