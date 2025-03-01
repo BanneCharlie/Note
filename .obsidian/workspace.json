@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14.JUC/2.Monitor.md",
+                "file": "14.JUC/6.AQS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Monitor"
+              "title": "6.AQS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14.JUC/2.Monitor.md",
+                "file": "14.JUC/6.AQS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.Monitor 的大纲"
+              "title": "6.AQS 的大纲"
             }
           }
         ],
@@ -168,8 +168,16 @@
   },
   "active": "16e4542adff3f716",
   "lastOpenFiles": [
-    "14.JUC/1.Info.md",
+    "14.JUC/7.ThreadLocal.md",
+    "9.Redis/2.Persistence.md",
+    "9.Redis/1.Info.md",
+    "9.Redis/3.Cluster.md",
+    "14.JUC/4.CAS.md",
+    "14.JUC/3.JMM.md",
+    "14.JUC/5.ThreadPool.md",
     "14.JUC/6.AQS.md",
+    "14.JUC/2.Monitor.md",
+    "14.JUC/1.Info.md",
     "1.Java/10.JDBC.md",
     "18.AI/Dify.md",
     "11.Git/Git.md",
@@ -179,9 +187,6 @@
     "5.Spring/5.Resource.md",
     "Work.md",
     "Today.md",
-    "9.Redis/2.Persistence.md",
-    "9.Redis/1.Info.md",
-    "9.Redis/3.Cluster.md",
     "18.AI/Xinference.md",
     "18.AI/Conda Command.md",
     "17.DesignPattern/1.Info.md",
@@ -190,11 +195,6 @@
     "16.Interview/Basic.md",
     "NotePush.bat",
     "NotePush.md",
-    "17.DesignPattern/4.BehaviorPattern.md",
-    "15.Tool/CommonTool.md",
-    "13.Vue3/3.Pinia.md",
-    "13.Vue3/2.Route.md",
-    "13.Vue3/1.Grammar.md",
     "15.Tool",
     "新建文件夹",
     "14.JUC/Pasted image 20240303121554.png",
