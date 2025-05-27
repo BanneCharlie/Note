@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8.Mysql/2.DML.md",
+                "file": "14.JUC/7.ThreadLocal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.DML"
+              "title": "7.ThreadLocal"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8.Mysql/2.DML.md",
+                "file": "14.JUC/7.ThreadLocal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.DML 的大纲"
+              "title": "7.ThreadLocal 的大纲"
             }
           }
         ],
@@ -168,8 +168,16 @@
   },
   "active": "16e4542adff3f716",
   "lastOpenFiles": [
-    "8.Mysql/3.DDL DCL.md",
+    "14.JUC/6.AQS.md",
+    "14.JUC/5.ThreadPool.md",
+    "14.JUC/4.CAS.md",
+    "14.JUC/3.JMM.md",
+    "14.JUC/2.Monitor.md",
+    "14.JUC/1.Info.md",
+    "14.JUC/7.ThreadLocal.md",
+    "Work.md",
     "8.Mysql/2.DML.md",
+    "8.Mysql/3.DDL DCL.md",
     "8.Mysql/4.Entity.md",
     "8.Mysql/1.Info.md",
     "1.Java/10.JDBC.md",
@@ -186,14 +194,6 @@
     "1.Java/4.Gather.md",
     "1.Java/3.Common Classes.md",
     "1.Java/2.Exception.md",
-    "1.Java/1.JavaBasic.md",
-    "3.Maven/1.MavenBasic.md",
-    "15.Tool/JWT.md",
-    "15.Tool/XXL-Job.md",
-    "15.Tool/HuTool.md",
-    "15.Tool/CommonTool.md",
-    "14.JUC/2.Monitor.md",
-    "14.JUC/1.Info.md",
     "NotePush.bat",
     "15.Tool",
     "新建文件夹",
