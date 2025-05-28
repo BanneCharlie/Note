@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14.JUC/7.ThreadLocal.md",
+                "file": "14.JUC/3.JMM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.ThreadLocal"
+              "title": "3.JMM"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14.JUC/7.ThreadLocal.md",
+                "file": "14.JUC/3.JMM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7.ThreadLocal 的大纲"
+              "title": "3.JMM 的大纲"
             }
           }
         ],
@@ -168,13 +168,13 @@
   },
   "active": "16e4542adff3f716",
   "lastOpenFiles": [
-    "14.JUC/6.AQS.md",
     "14.JUC/5.ThreadPool.md",
+    "14.JUC/6.AQS.md",
+    "14.JUC/7.ThreadLocal.md",
     "14.JUC/4.CAS.md",
     "14.JUC/3.JMM.md",
     "14.JUC/2.Monitor.md",
     "14.JUC/1.Info.md",
-    "14.JUC/7.ThreadLocal.md",
     "Work.md",
     "8.Mysql/2.DML.md",
     "8.Mysql/3.DDL DCL.md",
