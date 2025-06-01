@@ -1,7 +1,7 @@
 # Info
 
 简介 : Nacos(Dynamic Naming and Configuration Service),致力于发现、管理、配置微服务;Nacos是Spring Cloud Alibaba架构中最重要的组件,提供注册中心、配置中心和动态DNS服务(Nacos使用动态DNS服务来实现`中间层负载均衡、灵活的路由策略、流量控制以及简单的DNS解析`服务)三大功能;
-
+	
 `DDNS服务 :`DNS只提供了域名和IP地址之间的静态对应关系,无法动态更新;DDNS将用户IP地址映射到固定的域名解析服务器上,实现动态更新IP地址;
 
 ![image-20231129131209233](https://banne.oss-cn-shanghai.aliyuncs.com/Java/image-20231129131209233.png) 

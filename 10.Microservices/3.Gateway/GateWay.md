@@ -1,7 +1,6 @@
 # Info
 
 
-
 简介 : Spring Cloud Gateway 提供了一个建立在Spring生态系统之上的API网关,旨在提供一种简单有效的方法来路由到API,并为它们提供跨领域的关注点,可以处理安全、监控、限流、熔断等跨领域的问题;
 
 *Spring Cloud Gateway关键部分 :*

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14.JUC/3.JMM.md",
+                "file": "10.Microservices/6.ElasticSearch/ElasticSearch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.JMM"
+              "title": "ElasticSearch"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14.JUC/3.JMM.md",
+                "file": "10.Microservices/6.ElasticSearch/ElasticSearch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.JMM 的大纲"
+              "title": "ElasticSearch 的大纲"
             }
           }
         ],
@@ -168,11 +168,17 @@
   },
   "active": "16e4542adff3f716",
   "lastOpenFiles": [
+    "10.Microservices/5.RabbitMQ/RabbitMQ.md",
+    "10.Microservices/4.Sentinel/Sentinel.md",
+    "10.Microservices/3.Gateway/GateWay.md",
+    "10.Microservices/2.OpenFegin/OpenFeign.md",
+    "10.Microservices/1.Nacos/Nacos.md",
+    "10.Microservices/6.ElasticSearch/ElasticSearch.md",
+    "14.JUC/3.JMM.md",
     "14.JUC/5.ThreadPool.md",
     "14.JUC/6.AQS.md",
     "14.JUC/7.ThreadLocal.md",
     "14.JUC/4.CAS.md",
-    "14.JUC/3.JMM.md",
     "14.JUC/2.Monitor.md",
     "14.JUC/1.Info.md",
     "Work.md",
@@ -188,12 +194,6 @@
     "1.Java/8.Internet.md",
     "1.Java/7.IO流.md",
     "2.JavaWeb/1.Web.md",
-    "2.JavaWeb/2.Servlet.md",
-    "1.Java/6.Thread.md",
-    "1.Java/5.Generic.md",
-    "1.Java/4.Gather.md",
-    "1.Java/3.Common Classes.md",
-    "1.Java/2.Exception.md",
     "NotePush.bat",
     "15.Tool",
     "新建文件夹",
